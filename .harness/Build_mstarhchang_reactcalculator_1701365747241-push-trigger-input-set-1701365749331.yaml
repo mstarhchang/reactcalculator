@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_mstarhchang_reactcalculator_1701365747241-push-trigger-input-set
+  identifier: Build_mstarhchang_reactcalculator_1701365747241pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_mstarhchang_reactcalculator_1701365747241
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
