@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_mstarhchang_reactcalculator_1701365747241-pr-trigger-input-set
+  identifier: Build_mstarhchang_reactcalculator_1701365747241prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_mstarhchang_reactcalculator_1701365747241
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
